@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0; /* Light yellow background for the entire webpage */
+}
+
+header {
+    background-color: #368dc5; /* Purple for header */
+    color: white;
+    text-align: center;
+    padding: rem;
+}
+
+header p {
+    margin: 0;
+    padding: 0.5rem;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 1rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+#menu-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#todayMenu, #thursdayMenu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.food-item {
+    background-color: #f5c9d9; /* Baby pink background for food images */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.food-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.food-item h3 {
+    margin-top: 0;
+}
+
+.food-item:hover {
+    transform: scale(1.05);
+}
+
+#getDirections {
+    display: block;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    background-color: #368dc5; /* Button background color */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#getDirections:hover {
+    background-color: #005477; /* Hover color for the button */
+}
+
+footer {
+    background-color: #368dc5; /* Purple for footer */
+    color: white;
+    text-align: center;
+    padding: rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
